@@ -23,4 +23,4 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: Run surge
-        run: surge ./build zulehuma-baseapp.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+        run: surge ./build zulehuma-reactstate.surge.sh --token ${{ secrets.SURGE_TOKEN }}
