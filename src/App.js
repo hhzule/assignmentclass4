@@ -20,7 +20,7 @@ function App(props ) {
       <img src={Img} alt="logo"/><br />
       <img src= {lightState ? On : Off}  alt="pic" /><br></br>
      
-  <button onClick={()=> setLightState(!lightState)}>Clich to turn the light <h1>{lightState ? "On" : "Off"}</h1> </button>
+  <button onClick={()=> setLightState(!lightState)}>Clich to turn the light <h1>{lightState ? "Off" : "On"}</h1> </button>
  
      <br></br>
      <hr />
